@@ -94,7 +94,7 @@ def main():
 
         # --- ABSOLUTE MOVE ---
         #convert 2mm to device units
-        newposition_deviceunits = device.convert_from_physical_to_device(TLMC_ScaleType.TLMC_ScaleType_Distance, TLMC_Unit.TLMC_Unit_Millimetres, 2)
+        newposition_deviceunits = device.convert_from_physical_to_device(TLMC_ScaleType.TLMC_ScaleType_Distance, TLMC_Unit.TLMC_Unit_Millimetres, 10)
 
         print("Move absolute to 2mm... ")
         device.move(TLMC_MoveMode.TLMC_MoveMode_Absolute, newposition_deviceunits, TLMC_Wait.TLMC_InfiniteWait)

@@ -12,6 +12,7 @@
 *.ilk
 *.obj
 *.zip
+*.pyc
 !xa_sdk_setup.zip
 Python/.idea/misc.xml
 Python/.idea/ctypes_template.py

@@ -77,3 +77,5 @@ Python examples make use of the pythonNET and cTypes modules. If pythonNET is no
 pip install pythonnet
 ```
 
+# Important
+You must move to the Python/XA/xa_source/src/ folder the tlmc_xa_native.dll DLL from your XA local Thorlabs installation. 

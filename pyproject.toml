@@ -1,0 +1,14 @@
+[project]
+name = "motion-control-examples"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pyserial>=3.5",
+    "pythonnet>=3.1.0",
+    "thorlabs-xa",
+]
+
+[tool.uv.sources]
+thorlabs-xa = { path = "Python/XA/xa_source", editable = true }
